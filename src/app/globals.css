@@ -12,6 +12,22 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.indic-editor {
+  font-family: var(--font-noto-gujarati), var(--font-noto-devanagari), var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.translation-editor {
+  font-family: var(--font-source-serif), Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.notes-editor {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
