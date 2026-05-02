@@ -1,0 +1,4 @@
+# Vercel CLI uploads the working tree; ignore secrets and local env (unlike git-only ignores).
+.env
+.env.*
+!.env.example
